@@ -3,7 +3,7 @@ pragma solidity 0.7.0;
 
 
 contract ExampleExceptionRequire{
-
+    //requiere is for input validation
     mapping(address => uint) public balanceReceived;
 
     function receiveMoney() public payable{
